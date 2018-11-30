@@ -1,5 +1,5 @@
 const app = function () {
-	const API_BASE = 'https://script.google.com/macros/s/AKfycbwe2IuXONip_72AAIytB16FaV9olqPudY6HtDXsD-M/dev';
+	const API_BASE = 'https://script.google.com/macros/s/AKfycbw8SR5Hu4K1ljXcLgLVfSC7HMuEpWV5w9K2dQjPJWiNkyrfx7c/exec';
 	const API_KEY = 'abcdef';
 	const CATEGORIES = ['general', 'financial', 'technology', 'marketing'];
 
