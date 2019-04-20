@@ -79,6 +79,16 @@ const app = function () {
 			const article = document.createElement('article');
 			article.innerHTML = `
 				<h2>${post.title}</h2>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-linkify/2.1.4/linkify.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-linkify/2.1.4/linkify-jquery.min.js"></script>
+<script>
+// A $( document ).ready() block.
+$( document ).ready(function() {
+    $('article').linkify({
+    target: "_blank"
+});
+});
+</script>
 				<div class="article-details">
 					<div>By ${post.author} on ${_formatDate(post.timestamp)}</div>
 					<div>Posted in ${post.category}</div>
