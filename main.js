@@ -84,7 +84,7 @@ const app = function () {
 <script>
 // A $( document ).ready() block.
 $( document ).ready(function() {
-    $('article.innerHTML').linkify({
+    $('article-details').linkify({
     target: "_blank"
 });
 });
